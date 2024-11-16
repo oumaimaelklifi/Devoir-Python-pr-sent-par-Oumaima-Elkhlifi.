@@ -48,7 +48,7 @@ def Min(liste):
             min=value
     return min
 
-# la variance
+# la Variance
 def Variance(liste):
     moyenn = Moyenne(liste)
     variance = 0
