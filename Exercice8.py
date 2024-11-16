@@ -43,6 +43,6 @@ personne_trouvee = Chercher_Personne(Liste_Personne, nom_a_chercher)
 if personne_trouvee:
     print(f"Personne trouvée : Nom : {personne_trouvee[0]}, Prénom : {personne_trouvee[1]}, Age : {personne_trouvee[3]}, Genre : {personne_trouvee[2]}")
 else:
-    print(f"Aucune personne trouvée avec le om {nom_a_chercher}.")
+    print(f"Aucune personne trouvée avec le nom {nom_a_chercher}.")
 
 
